@@ -153,6 +153,11 @@ img{
 .boton--secundario{
     background-color: var(--cafe);
 }
+.entrada__imagen img{
+    width: 100%;
+    max-height: 460px;
+    object-fit: cover;     
+}
 /*--------- CURSOS ---------*/
 .cursos{
     list-style: none;
@@ -188,6 +193,11 @@ img{
     margin-top: 4rem;
 }
 /*--------- NOSOTROS ---------*/
+.sobre-nosotros img{
+    width: 100%;
+    max-height: 490px;
+    object-fit: cover;
+}
 @media (min-width: 468px) {    
     .sobre-nosotros{
         display: grid;
